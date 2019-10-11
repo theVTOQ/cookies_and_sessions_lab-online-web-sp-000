@@ -9,6 +9,7 @@ class ProductsController < ApplicationController
       binding.pry
       @cart = []
     end
+    binding.pry
     render "index"
   end
   
