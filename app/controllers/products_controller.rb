@@ -4,14 +4,14 @@ class ProductsController < ApplicationController
   protect_from_forgery with: :exception
   
   def index 
-    @cart = cart
-    binding.pry
-    if @cart.nil?
-      binding.pry
-      @cart = []
-    end
+    #@cart = cart
     #binding.pry
-    render "index"
+    #if @cart.nil?
+      #binding.pry
+      #@cart = []
+    #end
+    #binding.pry
+    #render "index"
   end
   
   def add_to_cart 
